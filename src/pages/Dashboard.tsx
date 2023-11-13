@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useDataProvider } from "react-admin";
-import { AlbumsPerUserChart } from "../components/Charts/AlbumsPerUserChart";
+import { AlbumsPerUserChart } from "../components/AlbumsPerUserChart";
 import { Album, AlbumCount } from "../interfaces";
 
 export const Dashboard: React.FC = () => {

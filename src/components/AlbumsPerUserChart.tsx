@@ -8,7 +8,7 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
-import { AlbumCount } from "../../interfaces";
+import { AlbumCount } from "../interfaces";
 
 interface AlbumsPerUserChartProps {
   data: AlbumCount[];
